@@ -1,0 +1,56 @@
+nomor 1
+
+STORE "m" to 600
+STORE "a" to 2
+STORE "result" without any value
+
+CALCULATE "m" times "a"
+SET "result" value with calculation result
+DISPLAY "result"
+
+
+nomor 2
+
+STORE "tahun" to any number
+
+IF
+"tahun" divided by 4 have remainder equals to 0 AND "tahun" divided by 100 have remainder NOT equal to 0
+OR
+"tahun" divided by 4 have remainder equals to 0 AND "tahun" divided by 100 have remainder equals to 0 AND "tahun" have remainder equals to 0
+DISPLAY "tahun kabisat"
+
+ELSE
+DISPLAY "bukan tahun kabisat"
+
+
+nomor 3
+
+STORE "jmlpakaian" to 0
+
+WHILE "jmlpakaian" < 20
+ADD "jmlpakaian" by 1
+
+DO "nyalain"
+
+
+nomor 4
+
+STORE "kuku" to any value
+STORE "siswa" to "1"
+
+WHILE "siswa" <= 40
+    IF "kuku" equals to "panjang"
+    DO "hukum"
+    ELSE
+    DO "puji"
+ADD "siswa" by 1
+
+DO "selesai"
+
+
+
+
+
+
+
+
